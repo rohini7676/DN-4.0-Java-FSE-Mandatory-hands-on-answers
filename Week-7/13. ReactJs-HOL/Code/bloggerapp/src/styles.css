@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  flex: 1;
+  padding: 0 20px;
+  border-left: 4px solid green;
+}
+
+.section:first-child {
+  border-left: none;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.section p {
+  margin: 0 0 10px;
+}
+
+.subtext {
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 15px;
+}
